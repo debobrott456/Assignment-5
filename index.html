@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency services</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
 </head>
 <body>
     <nav>
@@ -16,15 +18,16 @@
         </div>
         <div class="flex">
             <div class="nav-icon">
-                <p class="heart" id="heart">0</p>
+                <p class="hear" id="heart">0</p>
                 <img src="./assets/heart.png" alt="" height="30px">
             </div>
             <div class="nav-icon">
-                <p class="coin" id="coin">100</p>
+                <p class="coi" id="coin">100</p>
                 <img src="./assets/coin.png" alt="" height="30px">
 
             </div>
             <div class="copy flex">
+                <p id="cop">0</p>
                 <p>copy</p>
             </div>
         </div>
@@ -42,72 +45,77 @@
        <div class="container flex">
          <div class="left grid">
         <div class="card">
-            <div class="flex love"><img src="./assets/emergency.png" alt="" height="30px"><button><i class="fa-solid fa-heart"></i></button>                
+            <div class="flex love"><img src="./assets/emergency.png" alt="" height="30px"><button id="heart-1"><i class="fa-solid fa-heart"></i></button>                
             </div>
             <h3>National EMergency Number</h3>
-            <p>National Emergency</p>
-            <h1><p>999</p></h1>
+            <p id="service-name-1">National Emergency</p>
+            <h1 id="service-number-1">999</h1>
             <div class="tab">All</div>
-            <div class="btn-div"><button class="btn-2"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1" id="btn-1"><i class="fa-solid fa-phone "></i> Call </button></div></div>
+            <div class="btn-div"><button class="btn-2" id="copy-1" ><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1" id="btn-1"><i class="fa-solid fa-phone "></i> Call </button></div></div>
         <div class="card">
-            <div class="love flex"><img src="./assets/police.png" alt="" height="30px"><button><i class="fa-solid fa-heart"></i></button></div>
+            <div class="love flex"><img src="./assets/police.png" alt="" height="30px"><button id="heart-2"><i class="fa-solid fa-heart"></i></button></div>
             <h3>Police Helpline Number</h3>
-            <p>Police</p>
-            <h1><p>999</p></h1>
+            <p id="service-name-2">Police</p>
+            <h1><p id="service-number-2">999</p></h1>
             <div class="tab">Police</div>
-            <div class="btn-div"><button class="btn-2"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1"><i class="fa-solid fa-phone "></i> Call</button></div></div>
+            <div class="btn-div"><button class="btn-2" id="copy-2"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1" id="btn-2"><i class="fa-solid fa-phone "></i> Call</button></div></div>
         <div class="card">
-            <div class="love flex"><img src="./assets/fire-service.png" alt="" height="30px"><button><i class="fa-solid fa-heart"></i></button></div>
+            <div class="love flex"><img src="./assets/fire-service.png" alt="" height="30px"><button id="heart-3"><i class="fa-solid fa-heart"></i></button></div>
             <h3>Fire Service Number</h3>
-            <p>Fire Service</p>
-        <h1><p>999</p></h1>
+            <p id="service-name-3">Fire Service</p>
+        <h1><p id="service-number-3">999</p></h1>
             <div class="tab">Fire</div>
         
-            <div class="btn-div"><button class="btn-2"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1"><i class="fa-solid fa-phone "></i> call</button></div></div>
+            <div class="btn-div"><button class="btn-2" id="copy-3"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1" id="btn-3"><i class="fa-solid fa-phone "></i> call</button></div></div>
         <div class="card">
-            <div class="love flex"><img src="./assets/ambulance.png" alt="" height="30px"><button><i class="fa-solid fa-heart"></i></button></div>
+            <div class="love flex"><img src="./assets/ambulance.png" alt="" height="30px"><button id="heart-4"><i class="fa-solid fa-heart"></i></button></div>
             <h3>Ambulance Service</h3>
-            <p>Ambulance</p>
-            <h1><p>999</p></h1>
+            <p id="service-name-4">Ambulance</p>
+            <h1><p id="service-number-4">999</p></h1>
             <div class="tab">Health</div>
-            <div class="btn-div"><button class="btn-2"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1"><i class="fa-solid fa-phone "></i> Call</button></div></div>
+            <div class="btn-div"><button class="btn-2" id="copy-4"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1" id="btn-4"><i class="fa-solid fa-phone "></i> Call</button></div></div>
         <div class="card">
-            <div class="love flex"><img src="./assets/emergency.png" alt="" height="30px"><button><i class="fa-solid fa-heart"></i></button></div>
+            <div class="love flex"><img src="./assets/emergency.png" alt="" height="30px"><button id="heart-5"><i class="fa-solid fa-heart"></i></button></div>
             <h3>Women & Child Helpline</h3>
-            <p>Women and Child helpline</p>
-            <h1><p>1994-999999</p></h1>
+            <p id="service-name-5">Women and Child helpline</p>
+            <h1><p id="service-number-5">1994 999999</p></h1>
             <div class="tab">Help</div>
-            <div class="btn-div"><button class="btn-2"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1"><i class="fa-solid fa-phone "></i> Call</button></div></div>
+            <div class="btn-div"><button class="btn-2" id="copy-5"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1" id="btn-5"><i class="fa-solid fa-phone "></i> Call</button></div></div>
         <div class="card">
-            <div class="love flex"><img src="./assets/emergency.png" alt="" height="30px"><button><i class="fa-solid fa-heart"></i></button></div>
+            <div class="love flex"><img src="./assets/emergency.png" alt="" height="30px"><button id="heart-6"><i class="fa-solid fa-heart"></i></button></div>
             <h3>Anti-Corruption Helpline</h3>
-            <p>ANti-Corruption</p>
-            <h1><p>109</p></h1>
-            <div class="tab"></div>
-            <div class="btn-div"><button class="btn-2"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1"><i class="fa-solid fa-phone "></i> Call</button></div></div>
+            <p id="service-name-6">ANti-Corruption</p>
+            <h1><p id="service-number-6">109</p></h1>
+            <div class="tab">Anticor</div>
+            <div class="btn-div"><button class="btn-2" id="copy-6"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1" id="btn-6"><i class="fa-solid fa-phone "></i> Call</button></div></div>
         <div class="card">
-            <div class="love flex"><img src="./assets/emergency.png" alt="" height="30px"><button><i class="fa-solid fa-heart"></i></button></div>
+            <div class="love flex"><img src="./assets/emergency.png" alt="" height="30px"><button id="heart-7"><i class="fa-solid fa-heart"></i></button></div>
             <h3>Electricity Helpline</h3>
-            <p>Electricity outage</p>
-            <h1><p>106</p></h1>
+            <p id="service-name-7">Electricity outage</p>
+            <h1><p id="service-number-7">106</p></h1>
             <div class="tab tab-1"><p>Electricity</p></div>
-            <div class="btn-div"><button class="btn-2"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1"><i class="fa-solid fa-phone "></i> Call</button></div></div>
+            <div class="btn-div"><button class="btn-2" id="copy-7"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1" id="btn-7"><i class="fa-solid fa-phone "></i> Call</button></div></div>
         <div class="card">
-            <div class="love flex"><img src="./assets/brac.png" alt="" height="30px"><button><i class="fa-solid fa-heart"></i></button></div>
+            <div class="love flex"><img src="./assets/brac.png" alt="" height="30px"><button id="heart-8"><i class="fa-solid fa-heart"></i></button></div>
             <h3>Brac Helpline</h3>
-            <p>Brac</p>
-            <h1><p>16216</p></h1>
+            <p class="service-name-8">Brac</p>
+            <h1><p class="service-number-8">16216</p></h1>
             <div class="tab"><p>NGO</p></div>
-            <div class="btn-div"><button class="btn-2"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1"><i class="fa-solid fa-phone "></i> Call</button></div></div>
+            <div class="btn-div"><button class="btn-2" id="copy-8"><i class="fa-solid fa-copy"></i> copy</button><button class="btn-1" id="btn-8"><i class="fa-solid fa-phone "></i> Call</button></div></div>
         <div class="card">
-            <div class="love flex"><img src="./assets/Bangladesh-Railway.png" alt="" height="30px"><button><i class="fa-solid fa-heart"></i></button></div>
+            <div class="love flex"><img src="./assets/Bangladesh-Railway.png" alt="" height="30px"><button id="heart-9"><i class="fa-solid fa-heart"></i></button></div>
             <h3>Bangladesh Railway Helpline </h3>
-            <p>Bangladesh railway</p>
-            <h1><p>163</p></h1>
+            <p id="service-name-9">Bangladesh railway</p>
+            <h1><p id="service-number-9">163</p></h1>
             <div class="tab"><p>Travel</p></div>
-            <div class="btn-div"><button class="btn-2"> copy</button><button class="btn-1"> Call</button></div></div>
+            <div class="btn-div"><button class="btn-2" id="copy-9"> copy</button><button class="btn-1" id="btn-9"> Call</button></div></div>
         </div >
-        <div class="right">
+        <div class="right" id="right">
+        <div class="flex history" ><p class="bold">Call History</p> 
+        <button class="btn-3" id="clear">Clear</button></div>
+        <div id="history"></div>
+
+
 
         </div>
        </div>
@@ -147,5 +155,10 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 />
 <script src="dom.js"></script>
+<script>
+          const servicename=document.getElementById("service-name-1").value;
+        const servicenumber=document.getElementById("service-number-1").value;
+
+</script>
 </body>
 </html>
