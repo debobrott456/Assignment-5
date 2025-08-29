@@ -70,8 +70,10 @@ const callButtons2 = document.getElementById("btn-2");
 
         const li=document.createElement("p");
         const li2=document.createElement("p");
-        li.innerText=sernam;
-        li2.innerText=sernum;
+  li2.innerText=sernum;
+         const now = new Date();
+      const timeString = now.toLocaleTimeString();
+      li.innerText=sernam+"  "+timeString;
         div.appendChild(li);
         div.appendChild(li2);
     }
@@ -100,8 +102,10 @@ alert("Fire service number 999")
 
         const li=document.createElement("p");
         const li2=document.createElement("p");
-        li.innerText=sernam;
-        li2.innerText=sernum;
+     li2.innerText=sernum;
+         const now = new Date();
+      const timeString = now.toLocaleTimeString();
+      li.innerText=sernam+"  "+timeString;
         div.appendChild(li);
         div.appendChild(li2);
     }
@@ -129,8 +133,10 @@ alert("Ambulance number 999")
 
         const li=document.createElement("p");
         const li2=document.createElement("p");
-        li.innerText=sernam;
-        li2.innerText=sernum;
+       li2.innerText=sernum;
+         const now = new Date();
+      const timeString = now.toLocaleTimeString();
+      li.innerText=sernam+"  "+timeString;
         div.appendChild(li);
         div.appendChild(li2);
     }
@@ -159,8 +165,10 @@ const callButtons5 = document.getElementById("btn-5");
 
         const li=document.createElement("p");
         const li2=document.createElement("p");
-        li.innerText=sernam;
         li2.innerText=sernum;
+         const now = new Date();
+      const timeString = now.toLocaleTimeString();
+      li.innerText=sernam+"  "+timeString;
         div.appendChild(li);
         div.appendChild(li2);
     }
@@ -190,8 +198,10 @@ const callButtons6 = document.getElementById("btn-6");
 
         const li=document.createElement("p");
         const li2=document.createElement("p");
-        li.innerText=sernam;
         li2.innerText=sernum;
+         const now = new Date();
+      const timeString = now.toLocaleTimeString();
+      li.innerText=sernam+"  "+timeString;
         div.appendChild(li);
         div.appendChild(li2);
     }
@@ -221,8 +231,10 @@ const callButtons7 = document.getElementById("btn-7");
 
         const li=document.createElement("p");
         const li2=document.createElement("p");
-        li.innerText=sernam;
-        li2.innerText=sernum;
+       li2.innerText=sernum;
+         const now = new Date();
+      const timeString = now.toLocaleTimeString();
+      li.innerText=sernam+"  "+timeString;
         div.appendChild(li);
         div.appendChild(li2);
     }
@@ -251,8 +263,10 @@ const callButtons8 = document.getElementById("btn-8");
 
         const li=document.createElement("p");
         const li2=document.createElement("p");
-        li.innerText=sernam;
-        li2.innerText=sernum;
+      li2.innerText=sernum;
+         const now = new Date();
+      const timeString = now.toLocaleTimeString();
+      li.innerText=sernam+"  "+timeString;
         div.appendChild(li);
         div.appendChild(li2);
     }
@@ -280,8 +294,10 @@ const callButtons9 = document.getElementById("btn-9");
 
         const li=document.createElement("p");
         const li2=document.createElement("p");
-        li.innerText=sernam;
         li2.innerText=sernum;
+         const now = new Date();
+      const timeString = now.toLocaleTimeString();
+      li.innerText=sernam+"  "+timeString;
         div.appendChild(li);
         div.appendChild(li2);
     }
