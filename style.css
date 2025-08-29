@@ -57,8 +57,45 @@
 .right{
     flex:1;
 }
+.bold1{
+    font-weight: bold;
+    font-size: larger;
+}
+.card{
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+    width:300px;
+    height:250px;
+}
+.btn-2{
+    border:none;
+    background-color: white;
+    width:160px;
+    height:40px;
+    padding:10px;
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border:1px solid lightgray
+}
+.btn-1{
+    border:none;
+    background-color: rgb(0,166,62); 
+    width:160px;
+    height:40px;
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn-div{
+    display:flex;
+}
 .main{
     margin-top: 20px;
+    background-color: rgb(65,255,107,0.1);
 }
 .tab{
     background-color: lightgray;
